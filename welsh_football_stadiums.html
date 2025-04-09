@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_97640415b6dcc4b249367f04823759b7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_97640415b6dcc4b249367f04823759b7" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_97640415b6dcc4b249367f04823759b7 = L.map(
+                "map_97640415b6dcc4b249367f04823759b7",
+                {
+                    center: [52.1307, -3.7837],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 8,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_41e698fc2e0abd33af1b052f8039239f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_41e698fc2e0abd33af1b052f8039239f.addTo(map_97640415b6dcc4b249367f04823759b7);
+        
+    
+            var marker_cae5cf8423988d86333ea188374dce23 = L.marker(
+                [51.6427, -3.0214],
+                {
+}
+            ).addTo(map_97640415b6dcc4b249367f04823759b7);
+        
+    
+        var popup_2085a7e722d2e748763d1bc98a53f9a8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_113241a84d28a46147492563627cd5e2 = $(`<div id="html_113241a84d28a46147492563627cd5e2" style="width: 100.0%; height: 100.0%;">     <b>Stadium:</b> cwmbran stadium<br>     <b>Capacity:</b> 10500<br>     <b>Team(s):</b> Cwmbran Town<br>     <b>Postcode:</b> NP44 3YS     </div>`)[0];
+                popup_2085a7e722d2e748763d1bc98a53f9a8.setContent(html_113241a84d28a46147492563627cd5e2);
+            
+        
+
+        marker_cae5cf8423988d86333ea188374dce23.bindPopup(popup_2085a7e722d2e748763d1bc98a53f9a8)
+        ;
+
+        
+    
+    
+            marker_cae5cf8423988d86333ea188374dce23.bindTooltip(
+                `<div>
+                     cwmbran stadium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_cdf0428bcbc8fc31efc67851ed9413d7 = L.marker(
+                [51.4114, -3.268],
+                {
+}
+            ).addTo(map_97640415b6dcc4b249367f04823759b7);
+        
+    
+        var popup_12ac8ef93b0e98db31f9f102844cab7c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a08ca74a37028890a86568fb40b0bf7b = $(`<div id="html_a08ca74a37028890a86568fb40b0bf7b" style="width: 100.0%; height: 100.0%;">     <b>Stadium:</b> Jenner Park stadium<br>     <b>Capacity:</b> 6000<br>     <b>Team(s):</b> Barry Town United, Barry Town United Women<br>     <b>Postcode:</b> CF62 9BG     </div>`)[0];
+                popup_12ac8ef93b0e98db31f9f102844cab7c.setContent(html_a08ca74a37028890a86568fb40b0bf7b);
+            
+        
+
+        marker_cdf0428bcbc8fc31efc67851ed9413d7.bindPopup(popup_12ac8ef93b0e98db31f9f102844cab7c)
+        ;
+
+        
+    
+    
+            marker_cdf0428bcbc8fc31efc67851ed9413d7.bindTooltip(
+                `<div>
+                     Jenner Park stadium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8f141375c31170066cb5abd6eb01d6da = L.marker(
+                [53.0516, -3.0043],
+                {
+}
+            ).addTo(map_97640415b6dcc4b249367f04823759b7);
+        
+    
+        var popup_7226d81e86bbd2f3e94c7fc71b92fd39 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f2e2bf31f3f5ad883bfc17ff8ab0d63b = $(`<div id="html_f2e2bf31f3f5ad883bfc17ff8ab0d63b" style="width: 100.0%; height: 100.0%;">     <b>Stadium:</b> The Remax Stadium<br>     <b>Capacity:</b> 6000<br>     <b>Team(s):</b> Port Talbot Town, Port Talbot Town Ladies<br>     <b>Postcode:</b> LL11 2AH     </div>`)[0];
+                popup_7226d81e86bbd2f3e94c7fc71b92fd39.setContent(html_f2e2bf31f3f5ad883bfc17ff8ab0d63b);
+            
+        
+
+        marker_8f141375c31170066cb5abd6eb01d6da.bindPopup(popup_7226d81e86bbd2f3e94c7fc71b92fd39)
+        ;
+
+        
+    
+    
+            marker_8f141375c31170066cb5abd6eb01d6da.bindTooltip(
+                `<div>
+                     The Remax Stadium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ac89106df15a1ecce6a3ad0afea61a19 = L.marker(
+                [51.5896, -2.9913],
+                {
+}
+            ).addTo(map_97640415b6dcc4b249367f04823759b7);
+        
+    
+        var popup_e8aeb8766213d40441d048e60ad7d052 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_eb9791fbf4b98d71408c2269d62488f3 = $(`<div id="html_eb9791fbf4b98d71408c2269d62488f3" style="width: 100.0%; height: 100.0%;">     <b>Stadium:</b> Newport Stadium<br>     <b>Capacity:</b> 5078<br>     <b>Team(s):</b> Newport City<br>     <b>Postcode:</b> NP19 0UU     </div>`)[0];
+                popup_e8aeb8766213d40441d048e60ad7d052.setContent(html_eb9791fbf4b98d71408c2269d62488f3);
+            
+        
+
+        marker_ac89106df15a1ecce6a3ad0afea61a19.bindPopup(popup_e8aeb8766213d40441d048e60ad7d052)
+        ;
+
+        
+    
+    
+            marker_ac89106df15a1ecce6a3ad0afea61a19.bindTooltip(
+                `<div>
+                     Newport Stadium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6c71b1ab3b691b6e55203eb3971b260e = L.marker(
+                [53.155, -2.458],
+                {
+}
+            ).addTo(map_97640415b6dcc4b249367f04823759b7);
+        
+    
+        var popup_d9312666868a8daa406c89afef29ca89 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ec77daec257fdb49626e75bacd5f1d3f = $(`<div id="html_ec77daec257fdb49626e75bacd5f1d3f" style="width: 100.0%; height: 100.0%;">     <b>Stadium:</b> Latham Park<br>     <b>Capacity:</b> 5000<br>     <b>Team(s):</b> 	Newtown<br>     <b>Postcode:</b> CW15 1AE     </div>`)[0];
+                popup_d9312666868a8daa406c89afef29ca89.setContent(html_ec77daec257fdb49626e75bacd5f1d3f);
+            
+        
+
+        marker_6c71b1ab3b691b6e55203eb3971b260e.bindPopup(popup_d9312666868a8daa406c89afef29ca89)
+        ;
+
+        
+    
+    
+            marker_6c71b1ab3b691b6e55203eb3971b260e.bindTooltip(
+                `<div>
+                     Latham Park
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_06acd8df007d124ce1c7541b70fa172b = L.marker(
+                [52.41, -4.0813],
+                {
+}
+            ).addTo(map_97640415b6dcc4b249367f04823759b7);
+        
+    
+        var popup_17bb3575c21850a4292089966a83ed4b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b91c6db4ac51e93c37b46734b4cd745f = $(`<div id="html_b91c6db4ac51e93c37b46734b4cd745f" style="width: 100.0%; height: 100.0%;">     <b>Stadium:</b> Park Avenue<br>     <b>Capacity:</b> 5000<br>     <b>Team(s):</b> Aberystwyth Town Ladies, Aberystwyth Town<br>     <b>Postcode:</b> SY231PG     </div>`)[0];
+                popup_17bb3575c21850a4292089966a83ed4b.setContent(html_b91c6db4ac51e93c37b46734b4cd745f);
+            
+        
+
+        marker_06acd8df007d124ce1c7541b70fa172b.bindPopup(popup_17bb3575c21850a4292089966a83ed4b)
+        ;
+
+        
+    
+    
+            marker_06acd8df007d124ce1c7541b70fa172b.bindTooltip(
+                `<div>
+                     Park Avenue
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c8a0a54ae1b493f9b493e82578527d34 = L.marker(
+                [51.4733, -3.2064],
+                {
+}
+            ).addTo(map_97640415b6dcc4b249367f04823759b7);
+        
+    
+        var popup_12127525885162bb90eff2fb1d72aefb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fa59407123fe42565ee47f5ed879cc19 = $(`<div id="html_fa59407123fe42565ee47f5ed879cc19" style="width: 100.0%; height: 100.0%;">     <b>Stadium:</b> Cardiff International Sports Stadium<br>     <b>Capacity:</b> 4953<br>     <b>Team(s):</b> Cardiff City Women<br>     <b>Postcode:</b> CF11 8AZ     </div>`)[0];
+                popup_12127525885162bb90eff2fb1d72aefb.setContent(html_fa59407123fe42565ee47f5ed879cc19);
+            
+        
+
+        marker_c8a0a54ae1b493f9b493e82578527d34.bindPopup(popup_12127525885162bb90eff2fb1d72aefb)
+        ;
+
+        
+    
+    
+            marker_c8a0a54ae1b493f9b493e82578527d34.bindTooltip(
+                `<div>
+                     Cardiff International Sports Stadium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ec964cd680b4f299b4ccde0195590b1b = L.marker(
+                [53.2693, -3.2175],
+                {
+}
+            ).addTo(map_97640415b6dcc4b249367f04823759b7);
+        
+    
+        var popup_ddb642e1c7a7bd0f9447b72210087cf0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7bf1bad7422374d05c730d1e2a34d375 = $(`<div id="html_7bf1bad7422374d05c730d1e2a34d375" style="width: 100.0%; height: 100.0%;">     <b>Stadium:</b> Halkyn Road<br>     <b>Capacity:</b> 2000<br>     <b>Team(s):</b> Holywell Town<br>     <b>Postcode:</b> CH8 7TZ     </div>`)[0];
+                popup_ddb642e1c7a7bd0f9447b72210087cf0.setContent(html_7bf1bad7422374d05c730d1e2a34d375);
+            
+        
+
+        marker_ec964cd680b4f299b4ccde0195590b1b.bindPopup(popup_ddb642e1c7a7bd0f9447b72210087cf0)
+        ;
+
+        
+    
+    
+            marker_ec964cd680b4f299b4ccde0195590b1b.bindTooltip(
+                `<div>
+                     Halkyn Road
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_130a2178298093f2a42b9d57c7f85b80 = L.marker(
+                [51.5935, -3.8024],
+                {
+}
+            ).addTo(map_97640415b6dcc4b249367f04823759b7);
+        
+    
+        var popup_79f6c917b80121861af3d53499ce36bd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3b235ba9a1fe0c166d829aa2211956d3 = $(`<div id="html_3b235ba9a1fe0c166d829aa2211956d3" style="width: 100.0%; height: 100.0%;">     <b>Stadium:</b> Marston's Stadium<br>     <b>Capacity:</b> 4200<br>     <b>Team(s):</b> Afan Lido<br>     <b>Postcode:</b> SA12 6PE     </div>`)[0];
+                popup_79f6c917b80121861af3d53499ce36bd.setContent(html_3b235ba9a1fe0c166d829aa2211956d3);
+            
+        
+
+        marker_130a2178298093f2a42b9d57c7f85b80.bindPopup(popup_79f6c917b80121861af3d53499ce36bd)
+        ;
+
+        
+    
+    
+            marker_130a2178298093f2a42b9d57c7f85b80.bindTooltip(
+                `<div>
+                     Marston's Stadium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3a1e3d663ab889674fdc4a2963392ad2 = L.marker(
+                [51.5947, -3.7469],
+                {
+}
+            ).addTo(map_97640415b6dcc4b249367f04823759b7);
+        
+    
+        var popup_18aa33748a628a197dc077ecf1901df0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c459e663bfdd4b7f32a3eeace833f070 = $(`<div id="html_c459e663bfdd4b7f32a3eeace833f070" style="width: 100.0%; height: 100.0%;">     <b>Stadium:</b> Glenhafod Park Stadium<br>     <b>Capacity:</b> 4000<br>     <b>Team(s):</b> Goytre United<br>     <b>Postcode:</b> SA13 2YP     </div>`)[0];
+                popup_18aa33748a628a197dc077ecf1901df0.setContent(html_c459e663bfdd4b7f32a3eeace833f070);
+            
+        
+
+        marker_3a1e3d663ab889674fdc4a2963392ad2.bindPopup(popup_18aa33748a628a197dc077ecf1901df0)
+        ;
+
+        
+    
+    
+            marker_3a1e3d663ab889674fdc4a2963392ad2.bindTooltip(
+                `<div>
+                     Glenhafod Park Stadium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5c20fb89d5f81af6f9da85ca5361e51e = L.marker(
+                [52.4509, -3.5371],
+                {
+}
+            ).addTo(map_97640415b6dcc4b249367f04823759b7);
+        
+    
+        var popup_a30366dece154bffd41892840425328f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_765dcc5ddff3886edf63219ae2c9fbb3 = $(`<div id="html_765dcc5ddff3886edf63219ae2c9fbb3" style="width: 100.0%; height: 100.0%;">     <b>Stadium:</b> Victoria Park<br>     <b>Capacity:</b> 4000<br>     <b>Team(s):</b> Llanidloes Town, Llanidloes Town Reserves<br>     <b>Postcode:</b> SY18 6AS     </div>`)[0];
+                popup_a30366dece154bffd41892840425328f.setContent(html_765dcc5ddff3886edf63219ae2c9fbb3);
+            
+        
+
+        marker_5c20fb89d5f81af6f9da85ca5361e51e.bindPopup(popup_a30366dece154bffd41892840425328f)
+        ;
+
+        
+    
+    
+            marker_5c20fb89d5f81af6f9da85ca5361e51e.bindTooltip(
+                `<div>
+                     Victoria Park
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5c3feb755984bde750be542f27b63d52 = L.marker(
+                [53.32, -3.4753],
+                {
+}
+            ).addTo(map_97640415b6dcc4b249367f04823759b7);
+        
+    
+        var popup_4667cbc7ed7fd37af35a16ce220bfeb0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5b831cff318c99f20d7d89c67f03c357 = $(`<div id="html_5b831cff318c99f20d7d89c67f03c357" style="width: 100.0%; height: 100.0%;">     <b>Stadium:</b> Belle Vue<br>     <b>Capacity:</b> 3800<br>     <b>Team(s):</b> CPD Y Rhyl 1879 Ladies, CPD Y Rhyl 1879<br>     <b>Postcode:</b> LL18 4BY     </div>`)[0];
+                popup_4667cbc7ed7fd37af35a16ce220bfeb0.setContent(html_5b831cff318c99f20d7d89c67f03c357);
+            
+        
+
+        marker_5c3feb755984bde750be542f27b63d52.bindPopup(popup_4667cbc7ed7fd37af35a16ce220bfeb0)
+        ;
+
+        
+    
+    
+            marker_5c3feb755984bde750be542f27b63d52.bindTooltip(
+                `<div>
+                     Belle Vue
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3bf4bf1f751b932578be34c91bbee81c = L.marker(
+                [51.6834, -4.1478],
+                {
+}
+            ).addTo(map_97640415b6dcc4b249367f04823759b7);
+        
+    
+        var popup_130a5d6f31b984773483017114e967fe = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1b74d47ce29e3504ba17787e8e300eca = $(`<div id="html_1b74d47ce29e3504ba17787e8e300eca" style="width: 100.0%; height: 100.0%;">     <b>Stadium:</b> Stebonheath Park<br>     <b>Capacity:</b> 3700<br>     <b>Team(s):</b> Llanelli Town Ladies, Llanelli Town<br>     <b>Postcode:</b> SA15 1EY     </div>`)[0];
+                popup_130a5d6f31b984773483017114e967fe.setContent(html_1b74d47ce29e3504ba17787e8e300eca);
+            
+        
+
+        marker_3bf4bf1f751b932578be34c91bbee81c.bindPopup(popup_130a5d6f31b984773483017114e967fe)
+        ;
+
+        
+    
+    
+            marker_3bf4bf1f751b932578be34c91bbee81c.bindTooltip(
+                `<div>
+                     Stebonheath Park
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f6e079c19a24f17831c6416b524c4209 = L.marker(
+                [53.1357, -4.2687],
+                {
+}
+            ).addTo(map_97640415b6dcc4b249367f04823759b7);
+        
+    
+        var popup_89085cfdfe03b0600b9824ba8dc3d220 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_52be83ad348c6c5e305f0bd1efb5fd24 = $(`<div id="html_52be83ad348c6c5e305f0bd1efb5fd24" style="width: 100.0%; height: 100.0%;">     <b>Stadium:</b> The oval stadium<br>     <b>Capacity:</b> 3000<br>     <b>Team(s):</b> Caernarfon Town<br>     <b>Postcode:</b> LL55 2HT     </div>`)[0];
+                popup_89085cfdfe03b0600b9824ba8dc3d220.setContent(html_52be83ad348c6c5e305f0bd1efb5fd24);
+            
+        
+
+        marker_f6e079c19a24f17831c6416b524c4209.bindPopup(popup_89085cfdfe03b0600b9824ba8dc3d220)
+        ;
+
+        
+    
+    
+            marker_f6e079c19a24f17831c6416b524c4209.bindTooltip(
+                `<div>
+                     The oval stadium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b623ef5811887b7f52a731566d11a171 = L.marker(
+                [53.045, -2.9195],
+                {
+}
+            ).addTo(map_97640415b6dcc4b249367f04823759b7);
+        
+    
+        var popup_25c0a9ba62db6a865e6177f585df4508 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fcf9bb14c5218019ff3488382bb7944b = $(`<div id="html_fcf9bb14c5218019ff3488382bb7944b" style="width: 100.0%; height: 100.0%;">     <b>Stadium:</b> Alyn Park stadium<br>     <b>Capacity:</b> 3000<br>     <b>Team(s):</b> Mold Alexandra<br>     <b>Postcode:</b> LL13 9XT     </div>`)[0];
+                popup_25c0a9ba62db6a865e6177f585df4508.setContent(html_fcf9bb14c5218019ff3488382bb7944b);
+            
+        
+
+        marker_b623ef5811887b7f52a731566d11a171.bindPopup(popup_25c0a9ba62db6a865e6177f585df4508)
+        ;
+
+        
+    
+    
+            marker_b623ef5811887b7f52a731566d11a171.bindTooltip(
+                `<div>
+                     Alyn Park stadium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_78b90855b500e2bb830d4a5eef3f67af = L.marker(
+                [52.9762, -3.0686],
+                {
+}
+            ).addTo(map_97640415b6dcc4b249367f04823759b7);
+        
+    
+        var popup_f6e7d5e8d14c949de954b734a5ccc1a8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c314202a9b8d6752cb541e482cb079f0 = $(`<div id="html_c314202a9b8d6752cb541e482cb079f0" style="width: 100.0%; height: 100.0%;">     <b>Stadium:</b> The Rock<br>     <b>Capacity:</b> 3000<br>     <b>Team(s):</b> Gresford Athletic<br>     <b>Postcode:</b> LL14 3YG     </div>`)[0];
+                popup_f6e7d5e8d14c949de954b734a5ccc1a8.setContent(html_c314202a9b8d6752cb541e482cb079f0);
+            
+        
+
+        marker_78b90855b500e2bb830d4a5eef3f67af.bindPopup(popup_f6e7d5e8d14c949de954b734a5ccc1a8)
+        ;
+
+        
+    
+    
+            marker_78b90855b500e2bb830d4a5eef3f67af.bindTooltip(
+                `<div>
+                     The Rock
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_98667bc5162cec44249274a74eebcc01 = L.marker(
+                [51.5118, -3.6031],
+                {
+}
+            ).addTo(map_97640415b6dcc4b249367f04823759b7);
+        
+    
+        var popup_84765b838f9343eff413c0d86b8c6806 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9aaa6c6c609034594a5a3670ef1b79c3 = $(`<div id="html_9aaa6c6c609034594a5a3670ef1b79c3" style="width: 100.0%; height: 100.0%;">     <b>Stadium:</b> Bryntirion Park<br>     <b>Capacity:</b> 3000<br>     <b>Team(s):</b> Pen-y-Bont<br>     <b>Postcode:</b> CF31 4JU     </div>`)[0];
+                popup_84765b838f9343eff413c0d86b8c6806.setContent(html_9aaa6c6c609034594a5a3670ef1b79c3);
+            
+        
+
+        marker_98667bc5162cec44249274a74eebcc01.bindPopup(popup_84765b838f9343eff413c0d86b8c6806)
+        ;
+
+        
+    
+    
+            marker_98667bc5162cec44249274a74eebcc01.bindTooltip(
+                `<div>
+                     Bryntirion Park
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d37f778c5ca75211e8294b4ee088a740 = L.marker(
+                [52.9112, -3.5995],
+                {
+}
+            ).addTo(map_97640415b6dcc4b249367f04823759b7);
+        
+    
+        var popup_823ff3ea8eff495816c1b89bba1c1e25 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bae6acbfba5d8d2ea65b9da24112a03f = $(`<div id="html_bae6acbfba5d8d2ea65b9da24112a03f" style="width: 100.0%; height: 100.0%;">     <b>Stadium:</b> Maes Tegid stadium<br>     <b>Capacity:</b> 3000<br>     <b>Team(s):</b> Bala Town<br>     <b>Postcode:</b> LL23 7UY     </div>`)[0];
+                popup_823ff3ea8eff495816c1b89bba1c1e25.setContent(html_bae6acbfba5d8d2ea65b9da24112a03f);
+            
+        
+
+        marker_d37f778c5ca75211e8294b4ee088a740.bindPopup(popup_823ff3ea8eff495816c1b89bba1c1e25)
+        ;
+
+        
+    
+    
+            marker_d37f778c5ca75211e8294b4ee088a740.bindTooltip(
+                `<div>
+                     Maes Tegid stadium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1b87e112174fad5e3c6d85f26b40c62a = L.marker(
+                [52.6567, -3.1458],
+                {
+}
+            ).addTo(map_97640415b6dcc4b249367f04823759b7);
+        
+    
+        var popup_a012c0a66cb4ee68cbf53c5da784c362 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_82943c8d69a168185f3628b5b974e5cd = $(`<div id="html_82943c8d69a168185f3628b5b974e5cd" style="width: 100.0%; height: 100.0%;">     <b>Stadium:</b> Maes y Dre Recreation Ground<br>     <b>Capacity:</b> 3000<br>     <b>Team(s):</b> Welshpool Town, Welshpool Town Reserves<br>     <b>Postcode:</b> SY21 7SU     </div>`)[0];
+                popup_a012c0a66cb4ee68cbf53c5da784c362.setContent(html_82943c8d69a168185f3628b5b974e5cd);
+            
+        
+
+        marker_1b87e112174fad5e3c6d85f26b40c62a.bindPopup(popup_a012c0a66cb4ee68cbf53c5da784c362)
+        ;
+
+        
+    
+    
+            marker_1b87e112174fad5e3c6d85f26b40c62a.bindTooltip(
+                `<div>
+                     Maes y Dre Recreation Ground
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ae483e9c89c9f4e5d65bd4ee189962c9 = L.marker(
+                [53.2245, -4.15],
+                {
+}
+            ).addTo(map_97640415b6dcc4b249367f04823759b7);
+        
+    
+        var popup_f188c09dd536a3801f8c8ed8030342d8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5f9b7ed83580feb0b3982c0e34d7bbf6 = $(`<div id="html_5f9b7ed83580feb0b3982c0e34d7bbf6" style="width: 100.0%; height: 100.0%;">     <b>Stadium:</b> Nantporth stadium<br>     <b>Capacity:</b> 3000<br>     <b>Team(s):</b> Bangor City, Bangor 1876, Bangor 1876 Women<br>     <b>Postcode:</b> LL57 2HQ     </div>`)[0];
+                popup_f188c09dd536a3801f8c8ed8030342d8.setContent(html_5f9b7ed83580feb0b3982c0e34d7bbf6);
+            
+        
+
+        marker_ae483e9c89c9f4e5d65bd4ee189962c9.bindPopup(popup_f188c09dd536a3801f8c8ed8030342d8)
+        ;
+
+        
+    
+    
+            marker_ae483e9c89c9f4e5d65bd4ee189962c9.bindTooltip(
+                `<div>
+                     Nantporth stadium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            tile_layer_41e698fc2e0abd33af1b052f8039239f.addTo(map_97640415b6dcc4b249367f04823759b7);
+        
+</script>
+</html>
